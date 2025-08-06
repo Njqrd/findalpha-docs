@@ -5,7 +5,7 @@ title: Time Period Selection
 
 # Time Period Selector
 
-FindAlpha.io provides a **unified time period selector** that allows users to analyze fund performance over consistent time horizons. This makes it easy to compare funds across borders and asset classes using standardized timeframes.
+FindAlpha provides a **unified time period selector** that allows users to analyze fund performance over consistent time horizons. This makes it easy to compare funds across borders and asset classes using standardized timeframes.
 
 ### Where to Find It
 

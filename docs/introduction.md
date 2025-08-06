@@ -3,32 +3,62 @@ sidebar_position: 1
 title: Introduction
 ---
 
-# Introduction to FindAlpha.io
+# Introduction to FindAlpha
 
-## The Problem: Cross-Border Fund Comparison Is Broken
+<div class="intro-section">
+  <div class="intro-column">
+    <p>Analyzing and comparing investment funds across different countries presents significant challenges. The data is often fragmented across various sources, including PDFs, custodian reports, and disparate APIs. This lack of uniformity leads to several critical issues that make the traditional approach to global fund analysis a manual, error-prone, and unscalable process, ill-suited for the demands of modern, data-driven investment strategies.</p>
+  </div>
+  <div class="intro-column">
+    <div class="card-container">
+      <div class="challenge-card">
+        <h4>Currency Volatility</h4>
+        <p>Fluctuations in exchange rates can obscure the true performance of a fund.</p>
+      </div>
+      <div class="challenge-card">
+        <h4>Inconsistent Metrics</h4>
+        <p>Funds often use non-standardized benchmarks and performance metrics, making direct comparisons unreliable.</p>
+      </div>
+      <div class="challenge-card">
+        <h4>Varying Timeframes</h4>
+        <p>Different reporting periods and time horizons across regions further complicate analysis.</p>
+      </div>
+      <div class="challenge-card">
+        <h4>Lack of Advanced Tools</h4>
+        <p>There is a scarcity of tools that provide intuitive visualizations and in-depth analysis of cross-border fund data.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-When I tried answering what seemed like simple questions about fund performance across borders, I was quickly overwhelmed by how fragmented and opaque the process really was.
+## FindAlpha: A Unified Platform for Global Fund Intelligence
 
-I spent countless hours manually pulling data from a patchwork of sources — PDFs, Excel sheets from custodians, scattered APIs — just to get the raw inputs needed to begin any sort of analysis.
+<p>FindAlpha was developed to address these challenges by providing a structured and intelligent platform for global fund comparison. Our approach is built on the following key features:</p>
 
-Then came the deeper issues:
+<div class="feature-grid">
+  <div class="feature-card">
+    <h3>Unified Framework for Global Funds</h3>
+    <p>We offer a curated and expanding universe of over 70 global ETFs and funds. All data is processed through a standardized analytical pipeline to ensure reliable and consistent comparisons.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Standardized Currency Normalization</h3>
+    <p>All performance metrics are normalized to a single currency, eliminating the impact of foreign exchange fluctuations and revealing each fund's genuine performance.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Customizable Benchmarking</h3>
+    <p>Our platform allows users to define and adjust benchmarks to align with their specific strategies and risk profiles, enabling personalized and relevant alpha and beta analysis.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Consistent Risk and Return Metrics</h3>
+    <p>FindAlpha applies a uniform methodology for calculating key metrics such as Sharpe Ratio, Sortino Ratio, alpha, and beta. This ensures that all comparisons are conducted on a like-for-like basis, regardless of a fund's domicile or its stated benchmark.</p>
+  </div>
+  <div class="feature-card">
+    <h3>AI-Driven Insights</h3>
+    <p>The platform leverages artificial intelligence to identify significant trends, anomalies, and investment opportunities within the data, moving beyond raw numbers to deliver actionable intelligence.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Advanced Visual Analytics</h3>
+    <p>We transform complex datasets into clear and interactive visualizations. This enables investors to quickly identify patterns, compare strategies, and make informed decisions with confidence.</p>
+  </div>
+</div>
 
-- Currency fluctuations that distorted performance.
-- Non-standardized metrics and inconsistent benchmarks between funds.
-- Different time horizons across regions.
-- And a lack of intuitive visual tools to make sense of it all.
-
-It became clear: the traditional process is manual, error-prone, non-scalable, and not built for modern investors — let alone for AI-driven analysis or decision-making.
-
-## The Solution: FindAlpha.io — Designed for Intelligent, Cross-Border Fund Comparison
-
-To solve these frustrations, I built FindAlpha.io, a platform designed to bring structure, transparency, and intelligence to global fund comparison. Here's how:
-
-- **70+ Global Funds, One Unified Framework**: Access a curated, growing set of over 70 global ETFs and funds — all processed through a single, standardized analytical pipeline for reliable, head-to-head comparison.
-- **Unified Currency Basis**: All performance metrics are normalized to a single currency, stripping out FX noise and revealing the true underlying performance of each fund.
-- **Customizable Benchmarks**: Users can adjust benchmarks to match their strategy or risk appetite, enabling personalized and relevant alpha and beta insights across regions.
-- **Standardized Risk & Return Metrics**: FindAlpha uses consistent methodology for Sharpe, Sortino, alpha, and beta calculations, ensuring comparisons are fair and apples-to-apples — regardless of domicile or benchmark idiosyncrasies.
-- **AI-Powered Insights**: Built with AI at its core, the platform highlights opportunities, anomalies, and trends across datasets — making it easier to generate actionable insights rather than just raw numbers.
-- **Advanced Visual Analytics**: Complex data is transformed into clear, interactive visuals, helping investors see patterns, compare strategies, and make confident decisions — fast.
-
-This isn’t just automation — it's intelligent structuring of investment data, built for a world where information speed, clarity, and personalization define success.
