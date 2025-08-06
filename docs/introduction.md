@@ -24,11 +24,11 @@ It became clear: the traditional process is manual, error-prone, non-scalable, a
 
 To solve these frustrations, I built FindAlpha.io, a platform designed to bring structure, transparency, and intelligence to global fund comparison. Here's how:
 
-- ✅ **70+ Global Funds, One Unified Framework**: Access a curated, growing set of over 70 global ETFs and funds — all processed through a single, standardized analytical pipeline for reliable, head-to-head comparison.
-- 💱 **Unified Currency Basis**: All performance metrics are normalized to a single currency, stripping out FX noise and revealing the true underlying performance of each fund.
-- 🧭 **Customizable Benchmarks**: Users can adjust benchmarks to match their strategy or risk appetite, enabling personalized and relevant alpha and beta insights across regions.
-- 📊 **Standardized Risk & Return Metrics**: FindAlpha uses consistent methodology for Sharpe, Sortino, alpha, and beta calculations, ensuring comparisons are fair and apples-to-apples — regardless of domicile or benchmark idiosyncrasies.
-- 🧠 **AI-Powered Insights**: Built with AI at its core, the platform highlights opportunities, anomalies, and trends across datasets — making it easier to generate actionable insights rather than just raw numbers.
-- 📈 **Advanced Visual Analytics**: Complex data is transformed into clear, interactive visuals, helping investors see patterns, compare strategies, and make confident decisions — fast.
+- **70+ Global Funds, One Unified Framework**: Access a curated, growing set of over 70 global ETFs and funds — all processed through a single, standardized analytical pipeline for reliable, head-to-head comparison.
+- **Unified Currency Basis**: All performance metrics are normalized to a single currency, stripping out FX noise and revealing the true underlying performance of each fund.
+- **Customizable Benchmarks**: Users can adjust benchmarks to match their strategy or risk appetite, enabling personalized and relevant alpha and beta insights across regions.
+- **Standardized Risk & Return Metrics**: FindAlpha uses consistent methodology for Sharpe, Sortino, alpha, and beta calculations, ensuring comparisons are fair and apples-to-apples — regardless of domicile or benchmark idiosyncrasies.
+- **AI-Powered Insights**: Built with AI at its core, the platform highlights opportunities, anomalies, and trends across datasets — making it easier to generate actionable insights rather than just raw numbers.
+- **Advanced Visual Analytics**: Complex data is transformed into clear, interactive visuals, helping investors see patterns, compare strategies, and make confident decisions — fast.
 
 This isn’t just automation — it's intelligent structuring of investment data, built for a world where information speed, clarity, and personalization define success.

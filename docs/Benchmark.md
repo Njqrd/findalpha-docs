@@ -37,3 +37,8 @@ A consistent benchmark enables meaningful performance attribution and comparison
 
 The benchmark builder can be found by clicking the menu on the top left and then the second button (labeled Benchmark Builder)
 
+
+<video width="950" controls>
+  <source src="/videos/Benchmark%20Creator.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>

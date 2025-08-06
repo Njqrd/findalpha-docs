@@ -1,51 +1,55 @@
 ---
-title: Fund Comparison Capabilities
+id: fund-comparison-overview
+title: Fund Comparison Agent Overview
+sidebar_label: Fund Comparison Overview
+sidebar_position: 2
+description: High-level summary of the Fund Comparison Agent and its capabilities.
 ---
 
-# Fund Comparison Capabilities: A Deep Dive
+# Fund Comparison Agent Overview
+The Fund Comparison Agent is a high-level investment analysis tool designed for head-to-head comparison of multiple funds across a unified time horizon and currency base. It serves investors, analysts, and advisors seeking to evaluate 2–6 funds in a structured, side-by-side format, delivering concise and data-driven conclusions.
 
-The **Fund Comparison** feature on Find Alpha IO is a powerful tool designed to help financial professionals evaluate and contrast different ETFs and funds with precision. Leveraging unified benchmarks and currency handling, this capability provides side-by-side analytics to streamline your decision-making process.
+## What It Does
+The agent compares key quantitative performance metrics — including return, volatility, drawdown, and risk-adjusted measures — across multiple funds using standardized inputs. It then synthesizes these results into an executive summary and detailed breakdown for each fund, making it easy to identify strengths, weaknesses, and ideal use cases.
 
-## How Fund Comparison Works
+Unlike single-fund analysis tools, this agent focuses exclusively on comparative insights, determining which fund stands out and why. It ensures all metrics are aligned to the largest common time window (e.g., 5y, 10y) and normalized into the same base currency (e.g., USD, EUR, GBP) for true apples-to-apples analysis.
 
-Our fund comparison functionality allows you to analyze multiple products simultaneously, providing a comprehensive overview of their performance, risk, and other key metrics. This is particularly useful for understanding the relative strengths and weaknesses of different investment vehicles.
+## Output Structure
+*Analysis Parameters*: Currency, Time Period, Category, and Confidence level.
 
-## Key Features and Analysis Parameters
+*Executive Summary*: Concise, high-level interpretation of the comparison — including a clear winner and the trade-off between return and risk.
 
-When performing a fund comparison, you can define specific parameters to tailor the analysis to your needs. As demonstrated in a recent comparison of SPYG vs. IUSV, the following elements are central to the process:
+*Comparative Table* Symbol-based overview with metrics like return, Sharpe ratio, drawdown, etc.
 
-* **Selected Funds:** Choose the specific ETFs or mutual funds you wish to compare (e.g., SPYG and IUSV).
-* **Analysis Period:** Define the timeframe for the comparison (e.g., 10-Year Period).
-* **Base Currency:** Standardize the currency for all metrics to ensure consistent evaluation (e.g., EUR).
-* **Analysis Parameters:** Specify the type of comparison, such as analyzing a large-cap growth ETF against a large-cap value ETF.
+Individual Fund Breakdowns:
 
-## Executive Summary of Comparisons
+Competitive Advantages
 
-Each fund comparison generates an executive summary that provides a high-level overview of the findings. This summary highlights key insights and helps in quickly grasping the relative performance and characteristics of the compared funds. For instance, in a comparison of SPYG and IUSV, the summary noted that SPYG outperformed IUSV in annualized returns, while IUSV exhibited lower drawdown and moderate volatility. This allows investors to identify whether they should favor higher growth (SPYG) or more stable, value-oriented returns (IUSV).
+Relative Weaknesses
 
-## Detailed Metrics Comparison
+Best Use Case for investor fit
 
-A crucial component of the fund comparison capability is the detailed metrics table. This table presents a clear, side-by-side view of various performance and risk indicators, with a "Winner" column indicating which fund performed better for each metric.
 
-| Metric             | SPYG      | IUSV      | Winner |
-| :----------------- | :-------- | :-------- | :----- |
-| Annualized Return  | 14.8%     | 8.5%      | SPYG   |
-| Sharpe Ratio       | 0.63      | 0.50      | SPYG   |
-| Sortino Ratio      | 1.38      | 0.76      | SPYG   |
-| Volatility         | 17.1%     | 15.9%     | IUSV   |
-| Max Drawdown       | -25.7%    | -25.5%    | IUSV   |
-| Alpha              | 0.3%      | -0.1%     | SPYG   |
-| Beta               | 1.73      | 1.52      | IUSV   |
+## Ideal Use Case
+This agent is best suited for:
 
-*Table based on data from a comparative analysis of SPYG and IUSV.*
+Investment advisors comparing ETFs, mutual funds, or active strategies
 
-## Comparative Analysis of Individual Funds
+Platforms offering smart fund screeners or product pickers
 
-Beyond the summary and metric table, the system provides a more in-depth comparative analysis for each fund. For each selected fund (e.g., SPDR Portfolio S&P 500 Growth ETF (SPYG) and iShares Core S&P U.S. Value ETF (IUSV)), the report includes:
+High-net-worth investors evaluating options for core vs satellite allocations
 
-* **Key Performance Indicators:** Detailed values for Rate of Return, R/R Ratio, Sharpe Ratio, Sortino Ratio, Alpha, Volatility, Beta, and Drawdown. For example, SPYG had an annualized return of 14.85% and a max drawdown of -25.73%. IUSV had an annualized return of 78.54% (likely a typo, should align with 8.5% from table) and a max drawdown of -25.52%.
-* **Competitive Advantages:** Highlights the unique strengths of the fund.
-* **Relative Weaknesses:** Identifies areas where the fund may underperform or present higher risks.
-* **Best Use Case:** Provides guidance on ideal scenarios or investor profiles for the fund.
+Fund analysts performing due diligence across a peer group
 
-This comprehensive breakdown empowers financial professionals to make informed decisions by providing all the necessary data and insights in a clear, comparative format.
+## Summary
+The Fund Comparison Agent empowers users with expert-level insight into which fund is best suited for a particular objective, backed by quantitative evidence and formatted for fast decision-making. It’s not just about numbers — it’s about clarity, confidence, and relevance in choosing between investment options.
+
+## Example
+<iframe
+  src="/pdfs/Comparison.pdf"
+  width="100%"
+  height="1000px"
+
+>
+  <p>Your browser does not support iframes. <a href="/pdfs/Comparison.pdf" target="_blank">Click here to view the PDF</a></p>
+</iframe>

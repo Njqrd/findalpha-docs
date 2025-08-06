@@ -2,6 +2,7 @@
 id: return-chart
 title: Simulated Return Chart with Drawdowns
 description: Time-series visualization of portfolio growth and drawdown analysis.
+sidebar_label: Simulated Returns Chart
 sidebar_position: 3
 ---
 
@@ -10,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## Simulated Return Chart with Drawdowns
 
 <img
-  src={useBaseUrl('/img/return-chart.png')}
+  src={useBaseUrl('/img/returnchart/returnchart.png')}
   alt="Simulated return chart with drawdown visualization"
   width="100%"
 />

@@ -2,6 +2,7 @@
 id: radar-chart
 title: Fund Metrics Radar Chart
 description: Visual comparison of normalized fund metrics for selected fund, peer, and benchmark.
+sidebar_label: Radar Chart
 sidebar_position: 2
 ---
 
@@ -10,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## Fund Metrics Radar Chart
 
 <img
-  src={useBaseUrl('/img/radar-chart.png')}
+  src={useBaseUrl('/img/radarChart.png')}
   alt="Radar chart comparing fund metrics"
   width="100%"
 />

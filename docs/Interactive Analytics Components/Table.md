@@ -1,6 +1,9 @@
 ---
-sidebar_position: 6
+id: table
 title: Table
+sidebar_label: Table
+sidebar_position: 1
+description: Interactive fund and ETF performance table with sorting and comparison features.
 ---
 
 # Table
@@ -11,7 +14,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## Fund & ETF Performance Table
 
 <img
-  src={useBaseUrl('/img/fund-table-screenshot.png')}
+  src={useBaseUrl('/img/table/fulltable.png')}
   alt="Fund and ETF Performance Table Screenshot"
   width="100%"
 />
@@ -20,27 +23,6 @@ This interactive table component displays fund and ETF performance data, fully *
 
 ---
 
-### Table Columns & Hover Tooltips
-
-Hover over any column header to reveal:
-- A **short description** of the metric.
-- The **mathematical formula** used to compute the value.
-
-| Column               | Tooltip Content (on Hover)                           |
-|----------------------|------------------------------------------------------|
-| **Return**           | Sparkline preview of historical price movements     |
-| **Currency**         | Selected currency (e.g., EUR, USD, GBP, CHF)        |
-| **Rate of Return**   | Total percentage return over selected period        |
-| **R/R Ratio**        | Risk/Return Ratio (reward per unit of risk)         |
-| **Sharpe**           | Sharpe Ratio (risk-adjusted return)                 |
-| **Sortino**          | Downside-adjusted return metric                     |
-| **Alpha**            | Excess return over benchmark                        |
-| **Volatility**       | Annualized standard deviation                       |
-| **Beta**             | Correlation with benchmark                          |
-| **Drawdown**         | Maximum observed peak-to-trough drop                |
-| **Symbol**           | Ticker symbol of the fund/ETF                       |
-
----
 
 ### Interactive Features
 
@@ -49,6 +31,11 @@ Hovering over a **column header** displays:
 - A **tooltip** with explanation of the metric
 - The **formula** used to derive the value
 
+<video width="950" controls>
+  <source src="/videos/Column%20Headers.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 #### Column Sorting
 Clicking any column header sorts the table by that metric. The direction is indicated by an arrow:
 - 🔼 Ascending
@@ -56,6 +43,8 @@ Clicking any column header sorts the table by that metric. The direction is indi
 
 #### Row Hover Previews
 Hovering over a **row** displays a **mini performance chart** for that specific fund or ETF.
+
+
 
 #### Pin Rows for Comparison
 Clicking a row **pins** that fund/ETF:
@@ -70,26 +59,4 @@ Clicking a row **pins** that fund/ETF:
 The table always reflects the **user’s selected time period and currency**. All metrics and chart data adapt dynamically to those settings.
 
 ---
-
-### Example Workflow
-
-1. **Set** your preferred time frame (e.g., 3Y) and currency (e.g., EUR).
-2. **Hover** over the **Sharpe** header to learn what it means and how it's calculated.
-3. **Click** the **Alpha** column to sort funds by their excess returns.
-4. **Hover** the row for `iShares Gold Trust` to see its sparkline.
-5. **Click** to **pin** it for direct comparison with your benchmark and any other hovered fund.
-
----
-
-### 🛠 Accessibility & UX
-
-- All interactive elements are accessible via keyboard.
-- Tooltips are screen-reader friendly.
-- Sort icons and pinned rows are clearly styled for accessibility.
-
----
-
-### Image Asset
-
-Make sure to place your image at:
 

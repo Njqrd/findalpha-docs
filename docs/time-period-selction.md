@@ -18,8 +18,8 @@ The **time selector button** is located in the top right corner of the screen—
 
 Once a time period is selected, the entire platform updates to reflect return data and calculated metrics over the chosen horizon. This applies across all interactive components, including return charts, drawdown analysis, radar profiles, comparison tables, and distribution visuals.
 
-<video width="1200" controls>
-  <source src="/videos/Time%20Period%20Selctor.mp4" type="video/mp4" />
+<video width="800" controls>
+  <source src="/videos/TimePeriodSelector.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

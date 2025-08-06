@@ -1,12 +1,26 @@
 ---
+id: scatter-plot
 title: Scatter Plot
+sidebar_label: Scatter Plot
+sidebar_position: 5
+description: Interactive scatter plot for visualizing relationships between performance metrics.
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 
 # Scatter Plot
+
+
+<img
+  src={useBaseUrl('/img/scatterchart.png')}
+  alt="Radar chart comparing fund metrics"
+  width="100%"
+/>
 
 The **Scatter Plot** is a powerful, interactive tool for visualizing the relationship between any two performance metrics. Each dot on the plot represents a single fund, allowing you to easily identify trends, outliers, and clusters within a group of assets.
 
 ---
+
 
 ## Key Features
 
@@ -25,3 +39,8 @@ The plot is fully integrated with the **Metric Cards** for a seamless analytical
 * **Hovering (White Dot):** When you **hover your mouse** over any dot, it will be highlighted in **white**. The **Hover (White Bar)** in the Metric Cards section will instantly update to show the metrics for that specific fund. This is perfect for quick comparisons.
 
 * **Clicking (Green Dot):** When you **click** on any dot, it becomes the **Selected** fund and is highlighted in **green**. This action updates the **Selected (Green/Purple Bar)** in the Metric Cards, making that fund the primary subject of your analysis until you select another.
+
+<video width="800" controls>
+  <source src="/videos/Scatter.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>

@@ -22,7 +22,7 @@ This selector updates the entire platform to reflect your chosen currency—acro
 
 
 
-<video width="1200" controls>
+<video width="800" controls>
   <source src="/videos/Currency%20Selector.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
