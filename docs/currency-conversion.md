@@ -7,7 +7,7 @@ title: Currency Selector
 # Currency Selector
 
 
-To make cross-border ETF and fund comparisons seamless, FindAlpha.io includes a **unifying currency selector**. This ensures that all performance metrics and comparisons are displayed in a **single, consistent currency**, regardless of the fund’s native denomination.
+To make cross-border ETF and fund comparisons seamless, FindAlpha includes a **unifying currency selector**. This ensures that all performance metrics and comparisons are displayed in a **single, consistent currency**, regardless of the fund’s native denomination.
 
 ### Where to Find It
 

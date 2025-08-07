@@ -5,7 +5,7 @@ title: Benchmark Builder
 
 
 
-FindAlpha.io includes a powerful **benchmark builder** that allows users to standardize comparisons by selecting a unified benchmark composed of both a stock index and a bond index. This benchmark is then used for return comparisons and proprietary metric calculations such as **Beta**, and **Alpha**.
+FindAlpha includes a powerful **benchmark builder** that allows users to standardize comparisons by selecting a unified benchmark composed of both a stock index and a bond index. This benchmark is then used for return comparisons and proprietary metric calculations such as **Beta**, and **Alpha**.
 
 ### How It Works
 
